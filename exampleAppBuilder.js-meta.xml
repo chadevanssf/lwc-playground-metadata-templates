@@ -11,19 +11,19 @@
     </targets>
     <targetConfigs>
         <targetConfig targets="lightning__AppPage">
-            <property name="prop2" type="Boolean" />
+            <!--<property name="prop2" type="Boolean" />-->
             <supportedFormFactors>
                 <supportedFormFactor type="Small" />
             </supportedFormFactors>
         </targetConfig>
         <targetConfig targets="lightning__RecordPage">
-            <property name="prop1" type="String" />
+            <!--<property name="prop1" type="String" />-->
             <supportedFormFactors>
                 <supportedFormFactor type="Large" />
             </supportedFormFactors>
         </targetConfig>
-        <targetConfig targets="lightning_HomePage">
-            <property name="prop3" type="Integer" />
+        <targetConfig targets="lightning__HomePage">
+            <!--<property name="prop3" type="Integer" />-->
             <supportedFormFactors>
                 <supportedFormFactor type="Large" />
             </supportedFormFactors>

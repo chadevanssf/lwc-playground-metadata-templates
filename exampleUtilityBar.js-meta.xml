@@ -9,7 +9,7 @@
   </targets>
   <targetConfigs>
         <targetConfig targets="lightning__UtilityBar">
-            <property name="prop1" type="Boolean" />
+            <!--<property name="prop1" type="Boolean" />-->
         </targetConfig>
   </targetConfigs>
 </LightningComponentBundle>

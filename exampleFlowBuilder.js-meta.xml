@@ -9,11 +9,11 @@
     </targets>
   <targetConfigs>
       <targetConfig targets="lightning__FlowScreen">​
-           <property name="startDate" label="Start Date" type="Date" role="inputOnly"/>
+           <!--<property name="startDate" label="Start Date" type="Date" role="inputOnly"/>
            <property name="account" label="Account Chosen" type="@salesforce/schema/Account"/>
            <property name="annualRevenue" label="Annual Revenue" type="Integer" role="outputOnly"/>
            <property name="name" label="Account Name" type="String" />
-           <property name="accounts" label="Accounts" type="@salesforce/schema/Account[]"/>
+           <property name="accounts" label="Accounts" type="@salesforce/schema/Account[]"/>-->
       </targetConfig>
   </targetConfigs>
 </LightningComponentBundle>
