@@ -10,14 +10,23 @@
         <target>lightning__HomePage</target>
     </targets>
     <targetConfigs>
+        <targetConfig targets="lightning__AppPage">
+            <property name="prop2" type="Boolean" />
+            <supportedFormFactors>
+                <supportedFormFactor type="Small" />
+            </supportedFormFactors>
+        </targetConfig>
         <targetConfig targets="lightning__RecordPage">
             <property name="prop1" type="String" />
-            <objects>
-                <object>Account</object>
-            </objects>
+            <supportedFormFactors>
+                <supportedFormFactor type="Large" />
+            </supportedFormFactors>
         </targetConfig>
-        <targetConfig targets="lightning__AppPage, lightning__HomePage">
-            <property name="prop2" type="Boolean" />
+        <targetConfig targets="lightning_HomePage">
+            <property name="prop3" type="Integer" />
+            <supportedFormFactors>
+                <supportedFormFactor type="Large" />
+            </supportedFormFactors>
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>

@@ -2,8 +2,8 @@
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>47.0</apiVersion>
     <isExposed>true</isExposed>
-    <masterLabel>Example for App Builder</masterLabel>
-    <description>Use this template when adding support for App Builder</description>
+    <masterLabel>Example for Flow Builder</masterLabel>
+    <description>Use this template when adding support for Flow Builder</description>
     <targets>
         <target>lightning__FlowScreen</target>
     </targets>
@@ -14,15 +14,6 @@
            <property name="annualRevenue" label="Annual Revenue" type="Integer" role="outputOnly"/>
            <property name="name" label="Account Name" type="String" />
            <property name="accounts" label="Accounts" type="@salesforce/schema/Account[]"/>
-      </targetConfig>
-      <targetConfig targets="lightning__RecordPage">
-          <property name="prop1" type="String" />
-          <objects>
-              <object>Account</object>
-          </objects>
-      </targetConfig>
-      <targetConfig targets="lightning__AppPage, lightning__HomePage">
-          <property name="prop2" type="Boolean" />
       </targetConfig>
   </targetConfigs>
 </LightningComponentBundle>
