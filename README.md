@@ -18,6 +18,10 @@ Use to specify the Screen Component for Flow Builder
 
 Use to specify the Page type for Community Builder
 
+### Tag
+
+Use to specify the Tab
+
 ### Utility Bar
 
 Use to specify the Utility Bar
